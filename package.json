@@ -1,5 +1,5 @@
 {
-  "name": "todo-app-nestjs",
+  "name": "todo-api-nestjs",
   "version": "0.0.1",
   "description": "A simple Todo application built with NestJS and MongoDB",
   "author": "Punyawat C.",
