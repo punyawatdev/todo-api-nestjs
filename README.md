@@ -1,4 +1,4 @@
-# Todo App (NestJS + MongoDB)
+# Todo API (NestJS + MongoDB)
 
 A simple Todo application built with [NestJS](https://nestjs.com/) and [MongoDB](https://www.mongodb.com/).
 
@@ -11,8 +11,8 @@ A simple Todo application built with [NestJS](https://nestjs.com/) and [MongoDB]
 ## Installation
 
 ```bash
-git clone https://github.com/your-username/todo-app-nestjs.git
-cd todo-app-nestjs
+git clone https://github.com/your-username/todo-api-nestjs.git
+cd todo-api-nestjs
 npm install
 # OR
 yarn install
@@ -24,7 +24,7 @@ yarn install
 Copy `.env.example` to `.env` and update the MongoDB URI:
 
 ```env
-MONGODB_URI=mongodb://localhost:27017/nest-todo-app
+MONGODB_URI=mongodb://localhost:27017/todo_db
 ```
 
 ## Running the App

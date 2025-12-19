@@ -6,7 +6,7 @@ import { TodoModule } from './todo/todo.module';
 
 @Module({
   imports: [
-    MongooseModule.forRoot(process.env.MONGODB_URI || 'mongodb://localhost/nest-todo-app'),
+    MongooseModule.forRoot(process.env.MONGODB_URI || 'mongodb://localhost/todo_db'),
     TodoModule,
   ],
   controllers: [AppController],
